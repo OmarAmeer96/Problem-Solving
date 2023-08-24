@@ -1,8 +1,9 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main(){
+int main()
+{
     long long x, y;
-    cin>>x>>y;
-    cout<<(x%10) + (y%10);
+    cin >> x >> y;
+    cout << (x % 10) + (y % 10);
     return 0;
 }
